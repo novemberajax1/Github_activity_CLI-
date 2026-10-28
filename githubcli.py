@@ -103,40 +103,42 @@ def format_data(data) -> list:
         for event in events:
             #get the metadata val through the key 
             actor = event.get("actor",{}).get("login") #use the default for the last as by the time you are here youprobablay have access and no then it will just return None 
-            type = event.get("type",{})
+            event_type = event.get("type",{})
             repo_name = event.get("repo",{}).get("name")
             time_create = event.get("created_at",{})
             #the type of the event determines the specific payload, some events might share the same key 
             payload = event.get("payload",{}) #each event has its payload, specific details regarding what happended in this event type 
 
             #!this might be inefficient but we are targeting specific events in here so 
-            if type == "PushEvent":
-                push+=1 
-                action_taken.append(f"{actor} pushed {push} commits to {repo_name} at {time_create}")
+            if event_type == "PushEvent":
+                branch = payload.get("ref","unknown ref")
+                action_taken.append(f"{actor} pushed to {branch} in {repo_name} at {time_create}")
         
-            elif type == "CreateEvent":
-                action_taken.append(f"{actor} created branch {repo_name} at {time_create}")
+            elif event_type == "CreateEvent":
+                ref_type = payload.get("ref_type")
+                ref = payload.get("ref")
+                action_taken.append(f"{actor} created {ref_type} {ref or repo_name} at {time_create}")
         
-            elif type == "DeleteEvent":
+            elif event_type == "DeleteEvent":
                 action_taken.append(f"{actor} deleted branch {repo_name} at {time_create}")
         
-            elif type == "ForkEvent":
+            elif event_type == "ForkEvent":
                 action_taken.append(f"{actor} {payload.get('action')} repository {repo_name} at {time_create}")
             
-            elif type == "IssuesEvent":
+            elif event_type == "IssuesEvent":
                 action_taken.append(f"{actor} {payload.get('action')} issue in {repo_name} at {time_create}")
             
-            elif type == "PullRequestEvent":
+            elif event_type == "PullRequestEvent":
                 action_taken.append(f"{actor} {payload.get('action')} pull request on {repo_name} at {time_create}")
             
-            elif type == "WatchEvent":
+            elif event_type == "WatchEvent":
                 action_taken.append(f"{actor} {payload.get('action')} repository {repo_name} at {time_create}")
             
-            elif type == "ReleaseEvent":
+            elif event_type == "ReleaseEvent":
                 action_taken.append(f"{actor} {payload.get('action')} release on {repo_name} at {time_create}")
             
             else:
-                action_taken.append(f"{actor} triggered a {type} event on {repo_name} at {time_create}") #!for all the other unknown events 
+                action_taken.append(f"{actor} triggered a {event_type} event on {repo_name} at {time_create}") #!for all the other unknown events 
 
         return action_taken
 
@@ -178,7 +180,7 @@ def main():
             #save the user data into the cache 
             save_cache(cache)
             #load data and format 
-            for fmt in format_data(user_cache):
+            for fmt in format_data(cache[username]):
                 print(fmt)
         else:
             #there is cache and not fresh
@@ -221,7 +223,7 @@ def main():
 
 
     except requests.ConnectionError as cnt:
-        print(f"Unable to establlish connection: {cnt.response}")
+        print(f"Unable to establlish connection: {cnt}")
         return 
     except requests.HTTPError as htp:
         print(f"{htp}")

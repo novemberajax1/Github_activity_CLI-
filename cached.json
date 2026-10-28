@@ -1,57 +1,11 @@
 {
     "ThePrimeagen": {
-        "cached_at": "2026-09-25T10:22:56.422553",
-        "validated_at": "2026-09-25T10:22:56.422517",
-        "etag": "W/\"286be9c27d933cc7bfd5c7d7a1e67f5cdf33ad9d82c3d31a382942626dbf436a\"",
+        "cached_at": "2026-10-28T15:00:42.027426",
+        "validated_at": "2026-10-28T15:00:42.027403",
+        "etag": "W/\"dd02672eb888bad1b01d74d096864f9f4df6f01e1d6aacc69e025813c1135cfb\"",
         "events": [
             {
-                "id": "15720009270",
-                "type": "PullRequestEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "action": "opened",
-                    "number": 232,
-                    "pull_request": {
-                        "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/232",
-                        "id": 4633264936,
-                        "number": 232,
-                        "head": {
-                            "ref": "cursor/bun-workspaces-routes-package-6cb4",
-                            "sha": "ce4f9e2db4f97e2acf248927300fb86378972f5e",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        },
-                        "base": {
-                            "ref": "master",
-                            "sha": "6e8ceff9067eb946cc6fdb44c3b24e6924445341",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        }
-                    }
-                },
-                "public": true,
-                "created_at": "2026-09-25T02:22:31Z"
-            },
-            {
-                "id": "22099878567",
+                "id": "24217763486",
                 "type": "PushEvent",
                 "actor": {
                     "id": 4458174,
@@ -62,22 +16,68 @@
                     "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
                 },
                 "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
+                    "id": 776224857,
+                    "name": "ThePrimeagen/dev",
+                    "url": "https://api.github.com/repos/ThePrimeagen/dev"
                 },
                 "payload": {
-                    "repository_id": 1349629235,
-                    "push_id": 44511003286,
+                    "repository_id": 776224857,
+                    "push_id": 46621446297,
                     "ref": "refs/heads/master",
-                    "head": "6e8ceff9067eb946cc6fdb44c3b24e6924445341",
-                    "before": "9123eba1b0889fd80aca8b212dbcc6f4c745fc4c"
+                    "head": "1bebc030ccf044fe1b26fe8a1ac977ff84e91864",
+                    "before": "e66ab5618657df4e57a2ce025aa372d20c103106"
                 },
                 "public": true,
-                "created_at": "2026-09-24T22:29:29Z"
+                "created_at": "2026-10-15T16:55:25Z"
             },
             {
-                "id": "15719390439",
+                "id": "16136523096",
+                "type": "PullRequestEvent",
+                "actor": {
+                    "id": 4458174,
+                    "login": "ThePrimeagen",
+                    "display_login": "ThePrimeagen",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/ThePrimeagen",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
+                },
+                "repo": {
+                    "id": 1190098468,
+                    "name": "ThePrimeagen/jarl",
+                    "url": "https://api.github.com/repos/ThePrimeagen/jarl"
+                },
+                "payload": {
+                    "action": "merged",
+                    "number": 6,
+                    "pull_request": {
+                        "url": "https://api.github.com/repos/ThePrimeagen/jarl/pulls/6",
+                        "id": 4695898027,
+                        "number": 6,
+                        "head": {
+                            "ref": "cursor/release-v1-2-0-3737",
+                            "sha": "5824d53ec83e5a20671f14e3312e674a730a1d3a",
+                            "repo": {
+                                "id": 1190098468,
+                                "url": "https://api.github.com/repos/ThePrimeagen/jarl",
+                                "name": "jarl"
+                            }
+                        },
+                        "base": {
+                            "ref": "master",
+                            "sha": "61e554ccc98fa61e31f74a793d57a05734c0588c",
+                            "repo": {
+                                "id": 1190098468,
+                                "url": "https://api.github.com/repos/ThePrimeagen/jarl",
+                                "name": "jarl"
+                            }
+                        }
+                    }
+                },
+                "public": true,
+                "created_at": "2026-09-30T20:53:32Z"
+            },
+            {
+                "id": "16136498062",
                 "type": "PullRequestEvent",
                 "actor": {
                     "id": 4458174,
@@ -94,14 +94,14 @@
                 },
                 "payload": {
                     "action": "opened",
-                    "number": 1,
+                    "number": 6,
                     "pull_request": {
-                        "url": "https://api.github.com/repos/ThePrimeagen/jarl/pulls/1",
-                        "id": 4633169415,
-                        "number": 1,
+                        "url": "https://api.github.com/repos/ThePrimeagen/jarl/pulls/6",
+                        "id": 4695898027,
+                        "number": 6,
                         "head": {
-                            "ref": "cursor/rename-map-to-pipe-467e",
-                            "sha": "44c09deaacb0420a3547c9e77f5c6656125d76be",
+                            "ref": "cursor/release-v1-2-0-3737",
+                            "sha": "5824d53ec83e5a20671f14e3312e674a730a1d3a",
                             "repo": {
                                 "id": 1190098468,
                                 "url": "https://api.github.com/repos/ThePrimeagen/jarl",
@@ -110,7 +110,7 @@
                         },
                         "base": {
                             "ref": "master",
-                            "sha": "aa99a0495a1218f1358ba946ee3b4277d4a171e8",
+                            "sha": "61e554ccc98fa61e31f74a793d57a05734c0588c",
                             "repo": {
                                 "id": 1190098468,
                                 "url": "https://api.github.com/repos/ThePrimeagen/jarl",
@@ -120,244 +120,10 @@
                     }
                 },
                 "public": true,
-                "created_at": "2026-09-25T02:06:26Z"
+                "created_at": "2026-09-30T20:53:10Z"
             },
             {
-                "id": "22096580090",
-                "type": "PushEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "repository_id": 1349629235,
-                    "push_id": 44501557108,
-                    "ref": "refs/heads/master",
-                    "head": "9123eba1b0889fd80aca8b212dbcc6f4c745fc4c",
-                    "before": "e9b18708e33e78a7f026317062b5f1eb40546095"
-                },
-                "public": true,
-                "created_at": "2026-09-24T20:16:27Z"
-            },
-            {
-                "id": "22085727383",
-                "type": "PushEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "repository_id": 1349629235,
-                    "push_id": 44495106959,
-                    "ref": "refs/heads/master",
-                    "head": "e9b18708e33e78a7f026317062b5f1eb40546095",
-                    "before": "fb260e118fef8624d256d258394d9f2561f8c077"
-                },
-                "public": true,
-                "created_at": "2026-09-24T18:55:30Z"
-            },
-            {
-                "id": "22082770575",
-                "type": "PushEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "repository_id": 1349629235,
-                    "push_id": 44488298063,
-                    "ref": "refs/heads/master",
-                    "head": "db5e5fa6f6650fc3310ec208d02254f69a1fdca7",
-                    "before": "9b994360fc567a4e1b75e827d92a0705971a5bb3"
-                },
-                "public": true,
-                "created_at": "2026-09-24T17:32:11Z"
-            },
-            {
-                "id": "22079644646",
-                "type": "PushEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "repository_id": 1349629235,
-                    "push_id": 44493736094,
-                    "ref": "refs/heads/master",
-                    "head": "fb260e118fef8624d256d258394d9f2561f8c077",
-                    "before": "db5e5fa6f6650fc3310ec208d02254f69a1fdca7"
-                },
-                "public": true,
-                "created_at": "2026-09-24T18:38:29Z"
-            },
-            {
-                "id": "22067529568",
-                "type": "PushEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "repository_id": 1349629235,
-                    "push_id": 44475251941,
-                    "ref": "refs/heads/cursor/one-line-tool-call-717d",
-                    "head": "065fdc8aeb6f6a5543222abdcc03a118462e2934",
-                    "before": "4f082f04f12283659b4be52d7dbd0b1b77c728cc"
-                },
-                "public": true,
-                "created_at": "2026-09-24T15:02:29Z"
-            },
-            {
-                "id": "22060881938",
-                "type": "PushEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "repository_id": 1349629235,
-                    "push_id": 44463678373,
-                    "ref": "refs/heads/master",
-                    "head": "4d3936caf933c40c3c133d3eb776aa24f38a717e",
-                    "before": "c38f3b2d168b5c65c0533e1bd77fcbfca1a25a94"
-                },
-                "public": true,
-                "created_at": "2026-09-24T12:57:00Z"
-            },
-            {
-                "id": "22058300740",
-                "type": "PushEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "repository_id": 1349629235,
-                    "push_id": 44467051893,
-                    "ref": "refs/heads/master",
-                    "head": "5328cf32ec393fe4b67d17a8fa0fb04203e540cb",
-                    "before": "4d3936caf933c40c3c133d3eb776aa24f38a717e"
-                },
-                "public": true,
-                "created_at": "2026-09-24T13:34:37Z"
-            },
-            {
-                "id": "22057065462",
-                "type": "PushEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "repository_id": 1349629235,
-                    "push_id": 44483633420,
-                    "ref": "refs/heads/master",
-                    "head": "9b994360fc567a4e1b75e827d92a0705971a5bb3",
-                    "before": "c60f877ac530d38b783e20a7adfb0cd8832b6ad0"
-                },
-                "public": true,
-                "created_at": "2026-09-24T16:36:35Z"
-            },
-            {
-                "id": "22050419149",
-                "type": "PushEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "repository_id": 1349629235,
-                    "push_id": 44475279161,
-                    "ref": "refs/heads/master",
-                    "head": "c60f877ac530d38b783e20a7adfb0cd8832b6ad0",
-                    "before": "8878022f705206966bf20461dff4e6b7c76880f5"
-                },
-                "public": true,
-                "created_at": "2026-09-24T15:02:47Z"
-            },
-            {
-                "id": "15680385344",
+                "id": "16136453928",
                 "type": "PullRequestEvent",
                 "actor": {
                     "id": 4458174,
@@ -368,68 +134,42 @@
                     "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
                 },
                 "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
+                    "id": 1190098468,
+                    "name": "ThePrimeagen/jarl",
+                    "url": "https://api.github.com/repos/ThePrimeagen/jarl"
                 },
                 "payload": {
                     "action": "merged",
-                    "number": 231,
+                    "number": 5,
                     "pull_request": {
-                        "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/231",
-                        "id": 4626340962,
-                        "number": 231,
+                        "url": "https://api.github.com/repos/ThePrimeagen/jarl/pulls/5",
+                        "id": 4695769188,
+                        "number": 5,
                         "head": {
-                            "ref": "cursor/one-line-tool-call-717d",
-                            "sha": "065fdc8aeb6f6a5543222abdcc03a118462e2934",
+                            "ref": "cursor/add-exec-3737",
+                            "sha": "146d46e8067fe0719f0f8df769d98b7358c53f01",
                             "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
+                                "id": 1190098468,
+                                "url": "https://api.github.com/repos/ThePrimeagen/jarl",
+                                "name": "jarl"
                             }
                         },
                         "base": {
                             "ref": "master",
-                            "sha": "8878022f705206966bf20461dff4e6b7c76880f5",
+                            "sha": "aa110084f0f6a68e979a68b308807a1df8b12a2c",
                             "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
+                                "id": 1190098468,
+                                "url": "https://api.github.com/repos/ThePrimeagen/jarl",
+                                "name": "jarl"
                             }
                         }
                     }
                 },
                 "public": true,
-                "created_at": "2026-09-24T15:02:45Z"
+                "created_at": "2026-09-30T20:52:27Z"
             },
             {
-                "id": "22046377981",
-                "type": "PushEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "repository_id": 1349629235,
-                    "push_id": 44469997089,
-                    "ref": "refs/heads/master",
-                    "head": "8878022f705206966bf20461dff4e6b7c76880f5",
-                    "before": "5328cf32ec393fe4b67d17a8fa0fb04203e540cb"
-                },
-                "public": true,
-                "created_at": "2026-09-24T14:06:03Z"
-            },
-            {
-                "id": "15675805741",
+                "id": "16135625556",
                 "type": "PullRequestEvent",
                 "actor": {
                     "id": 4458174,
@@ -440,770 +180,39 @@
                     "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
                 },
                 "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "action": "merged",
-                    "number": 230,
-                    "pull_request": {
-                        "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/230",
-                        "id": 4621257109,
-                        "number": 230,
-                        "head": {
-                            "ref": "cursor/driver-in-process-client-f447",
-                            "sha": "58e1dedd18dc29ca115d1ddf36753922f30885df",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        },
-                        "base": {
-                            "ref": "master",
-                            "sha": "5328cf32ec393fe4b67d17a8fa0fb04203e540cb",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        }
-                    }
-                },
-                "public": true,
-                "created_at": "2026-09-24T14:06:01Z"
-            },
-            {
-                "id": "22045824113",
-                "type": "CreateEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "ref": "cursor/model-from-oligarchy-json",
-                    "ref_type": "branch",
-                    "full_ref": "refs/heads/cursor/model-from-oligarchy-json",
-                    "master_branch": "master",
-                    "description": "Playing around with automation via custom agent harness to run and test Omarchy releases",
-                    "pusher_type": "user"
-                },
-                "public": true,
-                "created_at": "2026-09-24T12:54:02Z"
-            },
-            {
-                "id": "15671926749",
-                "type": "PullRequestEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
+                    "id": 1190098468,
+                    "name": "ThePrimeagen/jarl",
+                    "url": "https://api.github.com/repos/ThePrimeagen/jarl"
                 },
                 "payload": {
                     "action": "opened",
-                    "number": 231,
+                    "number": 5,
                     "pull_request": {
-                        "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/231",
-                        "id": 4626340962,
-                        "number": 231,
+                        "url": "https://api.github.com/repos/ThePrimeagen/jarl/pulls/5",
+                        "id": 4695769188,
+                        "number": 5,
                         "head": {
-                            "ref": "cursor/one-line-tool-call-717d",
-                            "sha": "065fdc8aeb6f6a5543222abdcc03a118462e2934",
+                            "ref": "cursor/add-exec-3737",
+                            "sha": "146d46e8067fe0719f0f8df769d98b7358c53f01",
                             "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
+                                "id": 1190098468,
+                                "url": "https://api.github.com/repos/ThePrimeagen/jarl",
+                                "name": "jarl"
                             }
                         },
                         "base": {
                             "ref": "master",
-                            "sha": "8878022f705206966bf20461dff4e6b7c76880f5",
+                            "sha": "aa110084f0f6a68e979a68b308807a1df8b12a2c",
                             "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
+                                "id": 1190098468,
+                                "url": "https://api.github.com/repos/ThePrimeagen/jarl",
+                                "name": "jarl"
                             }
                         }
                     }
                 },
                 "public": true,
-                "created_at": "2026-09-24T13:16:39Z"
-            },
-            {
-                "id": "22041397057",
-                "type": "DeleteEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "ref": "cursor/model-from-oligarchy-json",
-                    "ref_type": "branch",
-                    "full_ref": "refs/heads/cursor/model-from-oligarchy-json",
-                    "pusher_type": "user"
-                },
-                "public": true,
-                "created_at": "2026-09-24T12:54:58Z"
-            },
-            {
-                "id": "22016217907",
-                "type": "PushEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "repository_id": 1349629235,
-                    "push_id": 44424069629,
-                    "ref": "refs/heads/master",
-                    "head": "c38f3b2d168b5c65c0533e1bd77fcbfca1a25a94",
-                    "before": "042cabf0308c29ee5d6dba0d860689758a26f8e1"
-                },
-                "public": true,
-                "created_at": "2026-09-24T03:35:31Z"
-            },
-            {
-                "id": "22011001248",
-                "type": "PushEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "repository_id": 1349629235,
-                    "push_id": 44412415457,
-                    "ref": "refs/heads/master",
-                    "head": "2b61490b20d4754163f36a31578c105e71252ea5",
-                    "before": "cfce052a7b6fee126311f97b54935a388397699e"
-                },
-                "public": true,
-                "created_at": "2026-09-24T00:00:49Z"
-            },
-            {
-                "id": "22007525697",
-                "type": "PushEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "repository_id": 1349629235,
-                    "push_id": 44423165570,
-                    "ref": "refs/heads/cursor/phase-5-driver-da3d",
-                    "head": "fdd2497283b2a937612f00059bb1b50cbe375c12",
-                    "before": "67fee4f3184ccbfc55a9c11f22b2e34dfdcfc50b"
-                },
-                "public": true,
-                "created_at": "2026-09-24T03:19:01Z"
-            },
-            {
-                "id": "15638319921",
-                "type": "PullRequestEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "action": "closed",
-                    "number": 229,
-                    "pull_request": {
-                        "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/229",
-                        "id": 4621249144,
-                        "number": 229,
-                        "head": {
-                            "ref": "cursor/restore-driving-prompt-9570",
-                            "sha": "0c6b2d1a17d3f95a1674c2849e52c6f4052553f5",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        },
-                        "base": {
-                            "ref": "master",
-                            "sha": "c38f3b2d168b5c65c0533e1bd77fcbfca1a25a94",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        }
-                    }
-                },
-                "public": true,
-                "created_at": "2026-09-24T03:35:56Z"
-            },
-            {
-                "id": "15637758622",
-                "type": "PullRequestEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "action": "opened",
-                    "number": 230,
-                    "pull_request": {
-                        "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/230",
-                        "id": 4621257109,
-                        "number": 230,
-                        "head": {
-                            "ref": "cursor/driver-in-process-client-f447",
-                            "sha": "58e1dedd18dc29ca115d1ddf36753922f30885df",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        },
-                        "base": {
-                            "ref": "master",
-                            "sha": "5328cf32ec393fe4b67d17a8fa0fb04203e540cb",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        }
-                    }
-                },
-                "public": true,
-                "created_at": "2026-09-24T03:37:13Z"
-            },
-            {
-                "id": "15637701949",
-                "type": "PullRequestEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "action": "opened",
-                    "number": 229,
-                    "pull_request": {
-                        "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/229",
-                        "id": 4621249144,
-                        "number": 229,
-                        "head": {
-                            "ref": "cursor/restore-driving-prompt-9570",
-                            "sha": "0c6b2d1a17d3f95a1674c2849e52c6f4052553f5",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        },
-                        "base": {
-                            "ref": "master",
-                            "sha": "c38f3b2d168b5c65c0533e1bd77fcbfca1a25a94",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        }
-                    }
-                },
-                "public": true,
-                "created_at": "2026-09-24T03:35:56Z"
-            },
-            {
-                "id": "15637544121",
-                "type": "PullRequestEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "action": "merged",
-                    "number": 227,
-                    "pull_request": {
-                        "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/227",
-                        "id": 4620891563,
-                        "number": 227,
-                        "head": {
-                            "ref": "cursor/phase-6-wiring-9570",
-                            "sha": "17b64f3f4fbaca64421ebeaf3e56bbd531086fdd",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        },
-                        "base": {
-                            "ref": "master",
-                            "sha": "58becad9b7c1886753c6a98c613a9b89f8c52ac3",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        }
-                    }
-                },
-                "public": true,
-                "created_at": "2026-09-24T03:32:30Z"
-            },
-            {
-                "id": "22004481778",
-                "type": "PushEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "repository_id": 1349629235,
-                    "push_id": 44423906206,
-                    "ref": "refs/heads/master",
-                    "head": "042cabf0308c29ee5d6dba0d860689758a26f8e1",
-                    "before": "58becad9b7c1886753c6a98c613a9b89f8c52ac3"
-                },
-                "public": true,
-                "created_at": "2026-09-24T03:32:31Z"
-            },
-            {
-                "id": "15636929090",
-                "type": "PullRequestEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "action": "merged",
-                    "number": 228,
-                    "pull_request": {
-                        "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/228",
-                        "id": 4620916682,
-                        "number": 228,
-                        "head": {
-                            "ref": "cursor/driver-tool-call-da3d",
-                            "sha": "1a8a7ec6460f1d5455a32bec6b9e9697bae957ff",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        },
-                        "base": {
-                            "ref": "cursor/phase-5-driver-da3d",
-                            "sha": "67fee4f3184ccbfc55a9c11f22b2e34dfdcfc50b",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        }
-                    }
-                },
-                "public": true,
-                "created_at": "2026-09-24T03:19:00Z"
-            },
-            {
-                "id": "15636750842",
-                "type": "PullRequestReviewCommentEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "action": "created",
-                    "comment": {
-                        "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/comments/4089407549",
-                        "pull_request_review_id": 5299215564,
-                        "id": 4089407549,
-                        "node_id": "PRRC_kwDOUHG1M87zv2g9",
-                        "diff_hunk": "@@ -67,6 +68,22 @@ export const drive = Effect.fn(\"Prompts.drive\")(function* (ticket: string, model\n   return yield* render(\"driving-agent.html\", { LINEAR_TICKET: ticket, MODEL: model });\n });\n \n+// The OpenRouter driver's prompt, filled again each step. The harness already holds the agent,\n+// the session, and the server, so those are not template values. Reasons are the actions so far.\n+export const openRouterDrive = Effect.fn(\"Prompts.openRouterDrive\")(function* (\n+  definition: string,\n+  proof: string,\n+  reasons: ReadonlyArray<string>,\n+  step: number,\n+) {\n+  return yield* render(\"openrouter-driving-agent.html\", {\n+    TEST_DEFINITION: definition,\n+    TEST_PROOF: proof,\n+    REASONS: JSON.stringify(reasons),",
-                        "path": "src/automation-server/prompts.ts",
-                        "commit_id": "b1ab0e98aeaf64723546e01dac8b6ec858441601",
-                        "original_commit_id": "19e8f1ebf08095c90cb0d039da09cf0341057152",
-                        "user": {
-                            "login": "ThePrimeagen",
-                            "id": 4458174,
-                            "node_id": "MDQ6VXNlcjQ0NTgxNzQ=",
-                            "avatar_url": "https://avatars.githubusercontent.com/u/4458174?v=4",
-                            "gravatar_id": "",
-                            "url": "https://api.github.com/users/ThePrimeagen",
-                            "html_url": "https://github.com/ThePrimeagen",
-                            "followers_url": "https://api.github.com/users/ThePrimeagen/followers",
-                            "following_url": "https://api.github.com/users/ThePrimeagen/following{/other_user}",
-                            "gists_url": "https://api.github.com/users/ThePrimeagen/gists{/gist_id}",
-                            "starred_url": "https://api.github.com/users/ThePrimeagen/starred{/owner}{/repo}",
-                            "subscriptions_url": "https://api.github.com/users/ThePrimeagen/subscriptions",
-                            "organizations_url": "https://api.github.com/users/ThePrimeagen/orgs",
-                            "repos_url": "https://api.github.com/users/ThePrimeagen/repos",
-                            "events_url": "https://api.github.com/users/ThePrimeagen/events{/privacy}",
-                            "received_events_url": "https://api.github.com/users/ThePrimeagen/received_events",
-                            "type": "User",
-                            "user_view_type": "public",
-                            "site_admin": false
-                        },
-                        "body": "Replace this with Join(\\n)",
-                        "created_at": "2026-09-24T03:14:54Z",
-                        "updated_at": "2026-09-24T03:15:00Z",
-                        "html_url": "https://github.com/ThePrimeagen/Oligarchy/pull/228#discussion_r4089407549",
-                        "pull_request_url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/228",
-                        "_links": {
-                            "self": {
-                                "href": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/comments/4089407549"
-                            },
-                            "html": {
-                                "href": "https://github.com/ThePrimeagen/Oligarchy/pull/228#discussion_r4089407549"
-                            },
-                            "pull_request": {
-                                "href": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/228"
-                            }
-                        },
-                        "reactions": {
-                            "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/comments/4089407549/reactions",
-                            "total_count": 0,
-                            "+1": 0,
-                            "-1": 0,
-                            "laugh": 0,
-                            "hooray": 0,
-                            "confused": 0,
-                            "heart": 0,
-                            "rocket": 0,
-                            "eyes": 0
-                        },
-                        "original_position": 23,
-                        "position": 1,
-                        "subject_type": "line"
-                    },
-                    "pull_request": {
-                        "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/228",
-                        "id": 4620916682,
-                        "number": 228,
-                        "head": {
-                            "ref": "cursor/driver-tool-call-da3d",
-                            "sha": "1a8a7ec6460f1d5455a32bec6b9e9697bae957ff",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        },
-                        "base": {
-                            "ref": "cursor/phase-5-driver-da3d",
-                            "sha": "67fee4f3184ccbfc55a9c11f22b2e34dfdcfc50b",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        }
-                    }
-                },
-                "public": true,
-                "created_at": "2026-09-24T03:14:54Z"
-            },
-            {
-                "id": "15636747191",
-                "type": "PullRequestReviewEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "review": {
-                        "id": 5299215564,
-                        "node_id": "PRR_kwDOUHG1M88AAAABO9uczA",
-                        "user": {
-                            "login": "ThePrimeagen",
-                            "id": 4458174,
-                            "node_id": "MDQ6VXNlcjQ0NTgxNzQ=",
-                            "avatar_url": "https://avatars.githubusercontent.com/u/4458174?v=4",
-                            "gravatar_id": "",
-                            "url": "https://api.github.com/users/ThePrimeagen",
-                            "html_url": "https://github.com/ThePrimeagen",
-                            "followers_url": "https://api.github.com/users/ThePrimeagen/followers",
-                            "following_url": "https://api.github.com/users/ThePrimeagen/following{/other_user}",
-                            "gists_url": "https://api.github.com/users/ThePrimeagen/gists{/gist_id}",
-                            "starred_url": "https://api.github.com/users/ThePrimeagen/starred{/owner}{/repo}",
-                            "subscriptions_url": "https://api.github.com/users/ThePrimeagen/subscriptions",
-                            "organizations_url": "https://api.github.com/users/ThePrimeagen/orgs",
-                            "repos_url": "https://api.github.com/users/ThePrimeagen/repos",
-                            "events_url": "https://api.github.com/users/ThePrimeagen/events{/privacy}",
-                            "received_events_url": "https://api.github.com/users/ThePrimeagen/received_events",
-                            "type": "User",
-                            "user_view_type": "public",
-                            "site_admin": false
-                        },
-                        "body": null,
-                        "commit_id": "b1ab0e98aeaf64723546e01dac8b6ec858441601",
-                        "state": "commented",
-                        "html_url": "https://github.com/ThePrimeagen/Oligarchy/pull/228#pullrequestreview-5299215564",
-                        "pull_request_url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/228",
-                        "_links": {
-                            "html": {
-                                "href": "https://github.com/ThePrimeagen/Oligarchy/pull/228#pullrequestreview-5299215564"
-                            },
-                            "pull_request": {
-                                "href": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/228"
-                            }
-                        },
-                        "submitted_at": "2026-09-24T03:15:00Z",
-                        "updated_at": "2026-09-24T03:15:00Z"
-                    },
-                    "pull_request": {
-                        "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/228",
-                        "id": 4620916682,
-                        "number": 228,
-                        "head": {
-                            "ref": "cursor/driver-tool-call-da3d",
-                            "sha": "1a8a7ec6460f1d5455a32bec6b9e9697bae957ff",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        },
-                        "base": {
-                            "ref": "cursor/phase-5-driver-da3d",
-                            "sha": "67fee4f3184ccbfc55a9c11f22b2e34dfdcfc50b",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        }
-                    },
-                    "action": "created"
-                },
-                "public": true,
-                "created_at": "2026-09-24T03:15:02Z"
-            },
-            {
-                "id": "15636575818",
-                "type": "PullRequestReviewCommentEvent",
-                "actor": {
-                    "id": 4458174,
-                    "login": "ThePrimeagen",
-                    "display_login": "ThePrimeagen",
-                    "gravatar_id": "",
-                    "url": "https://api.github.com/users/ThePrimeagen",
-                    "avatar_url": "https://avatars.githubusercontent.com/u/4458174?"
-                },
-                "repo": {
-                    "id": 1349629235,
-                    "name": "ThePrimeagen/Oligarchy",
-                    "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy"
-                },
-                "payload": {
-                    "action": "created",
-                    "comment": {
-                        "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/comments/4089382340",
-                        "pull_request_review_id": 5299215564,
-                        "id": 4089382340,
-                        "node_id": "PRRC_kwDOUHG1M87zvwXE",
-                        "diff_hunk": "@@ -2,14 +2,28 @@\n You drive one guest, one action at a time. You are not a developing agent.\n </role>\n \n+<mission>\n+The test definition is:\n+{{TEST_DEFINITION}}\n+\n+The proof is:\n+{{TEST_PROOF}}\n+</mission>\n+\n+<progress>\n+This is step {{STEP}}.\n+The actions so far are this array of reasons:\n+{{REASONS}}\n+</progress>",
-                        "path": "prompts/openrouter-driving-agent.html",
-                        "commit_id": "1a8a7ec6460f1d5455a32bec6b9e9697bae957ff",
-                        "original_commit_id": "19e8f1ebf08095c90cb0d039da09cf0341057152",
-                        "user": {
-                            "login": "ThePrimeagen",
-                            "id": 4458174,
-                            "node_id": "MDQ6VXNlcjQ0NTgxNzQ=",
-                            "avatar_url": "https://avatars.githubusercontent.com/u/4458174?v=4",
-                            "gravatar_id": "",
-                            "url": "https://api.github.com/users/ThePrimeagen",
-                            "html_url": "https://github.com/ThePrimeagen",
-                            "followers_url": "https://api.github.com/users/ThePrimeagen/followers",
-                            "following_url": "https://api.github.com/users/ThePrimeagen/following{/other_user}",
-                            "gists_url": "https://api.github.com/users/ThePrimeagen/gists{/gist_id}",
-                            "starred_url": "https://api.github.com/users/ThePrimeagen/starred{/owner}{/repo}",
-                            "subscriptions_url": "https://api.github.com/users/ThePrimeagen/subscriptions",
-                            "organizations_url": "https://api.github.com/users/ThePrimeagen/orgs",
-                            "repos_url": "https://api.github.com/users/ThePrimeagen/repos",
-                            "events_url": "https://api.github.com/users/ThePrimeagen/events{/privacy}",
-                            "received_events_url": "https://api.github.com/users/ThePrimeagen/received_events",
-                            "type": "User",
-                            "user_view_type": "public",
-                            "site_admin": false
-                        },
-                        "body": "Drop the \"the actions\" line with \"past steps\". Then each reason should be on its own line",
-                        "created_at": "2026-09-24T03:11:05Z",
-                        "updated_at": "2026-09-24T03:15:00Z",
-                        "html_url": "https://github.com/ThePrimeagen/Oligarchy/pull/228#discussion_r4089382340",
-                        "pull_request_url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/228",
-                        "_links": {
-                            "self": {
-                                "href": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/comments/4089382340"
-                            },
-                            "html": {
-                                "href": "https://github.com/ThePrimeagen/Oligarchy/pull/228#discussion_r4089382340"
-                            },
-                            "pull_request": {
-                                "href": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/228"
-                            }
-                        },
-                        "reactions": {
-                            "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/comments/4089382340/reactions",
-                            "total_count": 0,
-                            "+1": 0,
-                            "-1": 0,
-                            "laugh": 0,
-                            "hooray": 0,
-                            "confused": 0,
-                            "heart": 0,
-                            "rocket": 0,
-                            "eyes": 0
-                        },
-                        "original_position": 16,
-                        "position": 16,
-                        "subject_type": "line"
-                    },
-                    "pull_request": {
-                        "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy/pulls/228",
-                        "id": 4620916682,
-                        "number": 228,
-                        "head": {
-                            "ref": "cursor/driver-tool-call-da3d",
-                            "sha": "1a8a7ec6460f1d5455a32bec6b9e9697bae957ff",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        },
-                        "base": {
-                            "ref": "cursor/phase-5-driver-da3d",
-                            "sha": "67fee4f3184ccbfc55a9c11f22b2e34dfdcfc50b",
-                            "repo": {
-                                "id": 1349629235,
-                                "url": "https://api.github.com/repos/ThePrimeagen/Oligarchy",
-                                "name": "Oligarchy"
-                            }
-                        }
-                    }
-                },
-                "public": true,
-                "created_at": "2026-09-24T03:11:05Z"
+                "created_at": "2026-09-30T20:39:46Z"
             }
         ]
     },
